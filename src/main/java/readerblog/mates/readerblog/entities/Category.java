@@ -1,9 +1,12 @@
-package readerblog.mates.ReaderBlog.entities;
+package readerblog.mates.readerblog.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import readerblog.mates.readerblog.entities.Book;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @Entity

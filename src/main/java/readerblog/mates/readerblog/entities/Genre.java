@@ -1,4 +1,4 @@
-package readerblog.mates.ReaderBlog.entities;
+package readerblog.mates.readerblog.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
