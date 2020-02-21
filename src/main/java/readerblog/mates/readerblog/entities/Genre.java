@@ -1,18 +1,13 @@
-package readerblog.mates.readerblog.entities;
+package readerblog.mates.ReaderBlog.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
-import java.util.List;
 
-/**
- * @author mzheldin@yandex.ru
- */
-
-@Entity
 @Data
 @NoArgsConstructor
+@Entity
+@Table(name = "genres")
 public class Genre {
 
     @Id
